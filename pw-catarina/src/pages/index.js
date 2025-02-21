@@ -39,6 +39,7 @@ export default function Home() {
               Get started by editing <code>src/pages/index.js</code>.
             </li>
             <li>Save and see your changes instantly.</li>
+            <li>Make changes for class exercises </li>
           </ol>
 
           <div className={styles.ctas}>
@@ -64,6 +65,14 @@ export default function Home() {
               className={styles.secondary}
             >
               Read our docs
+            </a>
+            <a
+              //href="" // Alterar para a página teste
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.secondary}
+            >
+              PAG TESTE
             </a>
           </div>
         </main>
