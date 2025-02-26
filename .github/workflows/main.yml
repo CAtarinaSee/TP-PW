@@ -58,4 +58,4 @@ jobs:
         run: npm install -g netlify-cli
 
       - name: Deploy to Netlify
-        run: npx netlify-cli deploy --site lovely-vacherin-731d1e.netlify.app --auth ${{ secrets.NETLIFY_AUTH_TOKEN }} --prod
+        run: npx netlify-cli deploy --site sprint1-pw.netlify.app --auth ${{ secrets.NETLIFY_AUTH_TOKEN }} --prod
