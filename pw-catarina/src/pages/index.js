@@ -40,6 +40,15 @@ export default function Home() {
             </li>
             <li>Save and see your changes instantly.</li>
             <li>Make changes for class exercises </li>
+            <li>Make changes for class exercises </li>{" "}
+            <li>Make changes for class exercises </li>{" "}
+            <li>Make changes for class exercises </li>{" "}
+            <li>Make changes for class exercises </li>{" "}
+            <li>Make changes for class exercises </li>{" "}
+            <li>Make changes for class exercises </li>{" "}
+            <li>Make changes for class exercises </li>{" "}
+            <li>Make changes for class exercises </li>{" "}
+            <li>Make changes for class exercises </li>
           </ol>
 
           <div className={styles.ctas}>
