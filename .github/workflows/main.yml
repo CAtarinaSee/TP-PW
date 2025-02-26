@@ -3,7 +3,7 @@ name: Deploy to Netlify
 on:
   push:
     branches:
-      - main
+      - "**"
 
 jobs:
   build:
@@ -25,6 +25,9 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+
+      - name: Echo Name
+        run: echo "Pipeline executada por Catarina Seemann"
 
       - name: Install dependencies
         run: npm install
