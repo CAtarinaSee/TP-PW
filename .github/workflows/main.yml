@@ -43,7 +43,7 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    needs: build # O deploy só corre depois do build ser concluído
+    needs: build # O deploy só corre depois do build ser concluído :)
 
     steps:
       - name: Checkout code
