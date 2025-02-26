@@ -75,14 +75,14 @@ export default function Home() {
             >
               Read our docs
             </a>
-            <a
-              //href="" // Alterar para a página teste
+            {/*<a
+              href="" // Alterar para a página teste
               target="_blank"
               rel="noopener noreferrer"
               className={styles.secondary}
             >
               PAG TESTE
-            </a>
+            </a> */}
           </div>
         </main>
         <footer className={styles.footer}>
